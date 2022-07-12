@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Outfit" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="/dist/output.css" />
+    <title>Frontend Mentor | NFT preview card component</title>
+  </head>
+
+  <body>
+    <div class="flex h-screen items-center justify-center bg-Verydarkbluemain">
+      <div class="w-100 h-max rounded-lg bg-Verydarkbluecard p-4">
+        <img class="h-64 w-72 rounded-md" src="/images/image-equilibrium.jpg" />
+        <div class="py-4 font-outfit text-lg text-White">Equilibrium #3429</div>
+        <div class="w-64 text-Softblue">
+          Our Equilibrium collection promotes balance and calm.
+        </div>
+
+        <div class="flex items-baseline justify-between py-2">
+          <!--eth starts here -->
+
+          <div class="flex py-2 font-bold text-Cyan">
+            <svg
+              class=""
+              width="11"
+              height="18"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M11 10.216 5.5 18 0 10.216l5.5 3.263 5.5-3.262ZM5.5 0l5.496 9.169L5.5 12.43 0 9.17 5.5 0Z"
+                fill="#00FFF8"
+              />
+            </svg>
+            <div class="flex px-2">0.041 ETH</div>
+          </div>
+
+          <!--eth ends here-->
+
+          <!--3 days left starts here-->
+          <div class="flex items-baseline space-x-2 px-2">
+            <svg width="17" height="16" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M8.305 2.007a6.667 6.667 0 1 0 0 13.334 6.667 6.667 0 0 0 0-13.334Zm2.667 7.334H8.305a.667.667 0 0 1-.667-.667V6.007a.667.667 0 0 1 1.334 0v2h2a.667.667 0 0 1 0 1.334Z"
+                fill="#8BACD9"
+              />
+            </svg>
+            <div class="text-Softblue">3 days left</div>
+          </div>
+          <!--3 days left ends here-->
+        </div>
+
+        <hr class="mt-1 bg-Verydarkblueline" />
+        <!--avatar starts here-->
+
+        <div class="flex space-x-2 py-2">
+          <!--image starts here-->
+          <div class="mr-1 mt-1 w-9 rounded-full bg-White">
+            <img src="/images/image-avatar.png" />
+          </div>
+          <!--image ends here-->
+          <div class="flex py-2 px-1 text-White">
+            <p class="px-1 text-Softblue">Creation of</p>
+            Jules Wyvern
+          </div>
+        </div>
+
+        <!--avatar ends here-->
+      </div>
+    </div>
+    <div class="flex items-center justify-center font-serif">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >.
+      <div class="px-2 font-bold underline">
+        Coded by
+        <a href="https://www.youtube.com/channel/UC6OHQCUkqlYCuEwfIxxteBA"
+          >alokhegde221@gmail.com</a
+        >.
+      </div>
+    </div>
+  </body>
+</html>
